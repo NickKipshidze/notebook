@@ -18,7 +18,7 @@ async function fetchContent(path) {
 }
 
 window.loadContent = async function (name) {
-    content.innerHTML = await fetchContent(`../content/${name}.md`);
+    content.innerHTML = await fetchContent(`./content/${name}.md`);
 
     if (name == "home")
         selectOption(optionHome);
