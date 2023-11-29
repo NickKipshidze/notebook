@@ -67,6 +67,8 @@ let parseMap = [
 function parse(string) {
     let output = "\n" + string + "\n";
 
+    output = output.replace(/\[([^\[]+)\]\(([^)]+)\.md\)/g, '<a onclick="loadContent(\'$2\')">$1</a>');
+
     parseMap.forEach(function (p) {
         output = output.replace(p.pattern, function () {
             return replace.call(this, arguments, p.replace, p.type);
