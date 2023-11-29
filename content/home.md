@@ -6,9 +6,9 @@ This is Nick's notebook
 
 ## Information
 
-To see all the notes go to the <a onclick="loadContent('notes')">notes</a> tab.
+To see all the notes go to the [notes](notes.md) tab.
 
-Information about the author is located on the <a onclick="loadContent('author')">author</a> tab.
+Information about the author is located on the [author](author.md) tab.
 
 <br>
 
