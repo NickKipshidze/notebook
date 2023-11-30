@@ -3,7 +3,7 @@ let INLINE = "inline";
 
 let parseMap = [
     {
-        pattern: /(#{1,6})([^\n]+)/g,
+        pattern: /(#{1,6})(\s+[^\n]+)/g,
         replace: "<h$L1>$2</h$L1>",
         type: BLOCK,
     },
