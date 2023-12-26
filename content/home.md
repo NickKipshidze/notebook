@@ -6,7 +6,7 @@ This is Nick's notebook
 
 ## Information
 
-To see all the notes go to the [notes](notes.md) tab.
+To see all the documents go to the [documents](documents.md) tab.
 
 Information about the author is located on the [author](author.md) tab.
 
